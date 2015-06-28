@@ -6,3 +6,5 @@ regarding contributing and issues.
 
 The full readme is generated over in [docker-library/docs](https://github.com/docker-library/docs),
 specificially in [docker-library/docs/drupal](https://github.com/docker-library/docs/tree/master/drupal).
+
+I forked the official drupal docker repo so as to expose the drupal html mount point via kitematic.

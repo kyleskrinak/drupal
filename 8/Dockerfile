@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y libpng12-dev libjpeg-dev libpq-dev \
 
 VOLUME /var/www/html
 WORKDIR /var/www/html
+EXPOSE 80
 
 # https://www.drupal.org/node/3060/release
 ENV DRUPAL_VERSION 8.0.0-beta11
